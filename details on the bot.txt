@@ -1,6 +1,6 @@
 Bot for server raid in a single command 
 Step 1:  Server destruction
-ban all members + delete all rooms, vocals, category and all roles
+ban all members + delete all rooms, vocals, category and all roles (you can't because you have to be the owner of the server to be able to remove all the roles)
 Step 2: To piss off the server
 Create 20 lounges, 20 vocals and 20 categories who's called raid
 renames the server to raid create 20 role nma raid and spam 50 everyone messages of 2000 characters in the 20 rooms.
